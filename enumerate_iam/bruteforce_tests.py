@@ -254,20 +254,11 @@ BRUTEFORCE_TESTS = {
     ],
     "chime": [
         "get_global_settings",
-        "get_messaging_session_endpoint",
         "get_phone_number_settings",
         "list_accounts",
-        "list_app_instances",
-        "list_channel_memberships_for_app_instance_user",
-        "list_channels_moderated_by_app_instance_user",
-        "list_media_capture_pipelines",
-        "list_meetings",
         "list_phone_number_orders",
         "list_phone_numbers",
-        "list_sip_media_applications",
-        "list_sip_rules",
-        "list_voice_connector_groups",
-        "list_voice_connectors"
+        "list_sip_rules"
     ],
     "cleanrooms": [
         "list_collaborations",
@@ -569,8 +560,6 @@ BRUTEFORCE_TESTS = {
     ],
     "datasync": [
         "list_agents",
-        "list_discovery_jobs",
-        "list_storage_systems",
         "list_task_executions"
     ],
     "datazone": [
@@ -1009,14 +998,8 @@ BRUTEFORCE_TESTS = {
         "list_domain_names",
         "list_elasticsearch_versions",
         "list_vpc_endpoints",
-        "describe_inbound_connections",
-        "describe_outbound_connections",
         "describe_packages",
-        "describe_reserved_instance_offerings",
-        "describe_reserved_instances",
-        "get_compatible_versions",
         "list_domain_names",
-        "list_versions",
         "list_vpc_endpoints"
     ],
     "events": [
@@ -1199,10 +1182,7 @@ BRUTEFORCE_TESTS = {
         "list_logger_definitions",
         "list_resource_definitions",
         "list_subscription_definitions",
-        "get_service_role_for_account",
-        "list_components",
-        "list_core_devices",
-        "list_deployments"
+        "get_service_role_for_account"
     ],
     "groundstation": [
         "list_configs",
@@ -1474,7 +1454,6 @@ BRUTEFORCE_TESTS = {
         "list_applications"
     ],
     "kinesisvideo": [
-        "get_dash_streaming_session_url",
         "describe_edge_configuration",
         "describe_image_generation_configuration",
         "describe_mapped_resource_configuration",
@@ -2201,9 +2180,6 @@ BRUTEFORCE_TESTS = {
         "list_worlds"
     ],
     "rolesanywhere": [
-        "get_crl",
-        "get_profile",
-        "get_trust_anchor",
         "list_crls",
         "list_profiles",
         "list_subjects",
@@ -2450,10 +2426,6 @@ BRUTEFORCE_TESTS = {
         "list_apps"
     ],
     "sms-voice": [
-        "describe_account_attributes",
-        "describe_account_limits",
-        "describe_opt_out_lists",
-        "describe_spend_limits"
     ],
     "sms-voice.pinpoint": [
         "list_configuration_sets"
@@ -2524,8 +2496,6 @@ BRUTEFORCE_TESTS = {
         "list_databases"
     ],
     "sso": [
-        "list_application_providers",
-        "list_instances"
     ],
     "states": [
         "list_activities",
