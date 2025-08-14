@@ -105,3 +105,6 @@ venv.bak/
 
 .idea/*
 .DS_Store
+
+# AWS SDK
+/enumerate_iam/aws-sdk-js/
