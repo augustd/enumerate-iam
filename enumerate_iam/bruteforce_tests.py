@@ -257,8 +257,7 @@ BRUTEFORCE_TESTS = {
         "get_phone_number_settings",
         "list_accounts",
         "list_phone_number_orders",
-        "list_phone_numbers",
-        "list_sip_rules"
+        "list_phone_numbers"
     ],
     "cleanrooms": [
         "list_collaborations",
